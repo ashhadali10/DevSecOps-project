@@ -6,20 +6,20 @@
 
 > **Building security into the pipeline, not bolting it on at the end.**
 
-## 📖 Overview
+## Overview
 
 This project demonstrates a production-ready **DevSecOps Pipeline** designed to automate security testing within a CI/CD workflow. It implements the **Shift-Left Security** approach, ensuring vulnerabilities are detected and blocked before deployment.
 
 Built as part of my research into automated security controls for regulated environments (Banking/FinTech), this pipeline integrates **SAST**, **SCA**, and **Container Security** scanning directly into GitHub Actions.
 
-## 🎯 Objective
+## Objective
 
 Traditional DevOps focuses on speed. DevSecOps focuses on **Secure Speed**. The goals of this project were:
 1.  **Automate Security:** Remove manual bottlenecks in security testing.
 2.  **Enforce Gates:** Prevent vulnerable code from reaching production (Exit Code 1 on failure).
 3.  **Visibility:** Provide developers with immediate feedback on security issues.
 
-## 🏗 Architecture
+## Architecture
 
 ```mermaid
 graph TD
