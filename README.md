@@ -1,3 +1,4 @@
+```markdown
 # 🛡️ Enterprise DevSecOps Pipeline | Secure SDLC Implementation
 
 ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/ashhadali10/enterprise-devsecops-pipeline/pipeline.yml?branch=main&label=Pipeline%20Status&logo=github)
@@ -32,6 +33,7 @@ graph TD
     F --> G{Container Scan}
     G -->|Fail| D
     G -->|Pass| H[Deploy Ready]
+```
 
 ## 🛠 Tech Stack & Security Tools
 
