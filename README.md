@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ Enterprise DevSecOps Pipeline | Secure SDLC Implementation
 
 ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/ashhadali10/enterprise-devsecops-pipeline/pipeline.yml?branch=main&label=Pipeline%20Status&logo=github)
@@ -21,6 +20,18 @@ Traditional DevOps focuses on speed. DevSecOps focuses on **Secure Speed**. The 
 3.  **Visibility:** Provide developers with immediate feedback on security issues.
 
 ## 🏗 Architecture
+
+```mermaid
+graph TD
+    A[Developer Push] --> B(GitHub Actions)
+    B --> C{SAST Scan}
+    C -->|Fail| D[Block Build]
+    C -->|Pass| E{Dependency Scan}
+    E -->|Fail| D
+    E -->|Pass| F{Build Docker}
+    F --> G{Container Scan}
+    G -->|Fail| D
+    G -->|Pass| H[Deploy Ready]
 
 ```mermaid
 graph TD
