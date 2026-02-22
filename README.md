@@ -148,9 +148,7 @@ trivy image devsecops-app
 Security is a community effort. If you find a better way to configure these tools, please open a PR!
 
 ## 📬 Connect With Me
-*   **LinkedIn:** [Asad Ali](https://linkedin.com/in/ashhadali10/)
-*   **Email:** ashhadali2019@gmail.com
-*   **Portfolio:** [GitHub Profile](https://github.com/ashhadali10)
+*   **LinkedIn:** [Ashhad Ali](https://linkedin.com/in/ashhadali10/)
 
 ## 📄 License
 This project is licensed under the MIT License.
